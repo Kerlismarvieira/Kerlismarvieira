@@ -1,10 +1,30 @@
-- 👋 Hi, I’m @Kerlismarvieira
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
-<!---
-Kerlismarvieira/Kerlismarvieira is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeros[10]
+		inteiro indice, indice_pesquisa
+		inteiro numero_pesquisado
+
+		para(indice = 0; indice < 10; indice++){
+			escreva("Informe o número para a posição ", indice,": ")
+			leia(numeros[indice])
+			limpa()
+		}
+
+		para(indice = 0; indice < 10; indice++){
+
+			escreva("O número da posição ", indice," é: ", numeros[indice],"\n")
+		}
+
+		escreva("\nInforme o indice que deseja pesquisar: ")
+		leia(indice_pesquisa)
+
+		numero_pesquisado = numeros[indice_pesquisa]
+
+		escreva("\nO número pesquisado é: ", numero_pesquisado)
+		
+	}
+}
