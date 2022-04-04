@@ -1,28 +1,32 @@
-
-DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Document</title>
 </head>
 <body>
-    <form action="./formulario.html">
+    <form action="./login.html">
         <table>
             <tr>
-                <th>Formuário de login</th>
+                <th>Formuário</th>
             </tr>
             <tr>
                 <td><label for="email">Email</label></td>
-                <td><label for="senha">Senha</label></td>
+                <td><input type="email" name="email" id="email" placeholder="email" required="true"></td>
             </tr>
             <tr>
-                <td><input type="email" id="email" name="email" placeholder="email" required="true"></td>
-                <td><input type="password" name="email" id="email" placeholder="email" required="true"></td>
+                <td><label for="senha">Senha</label></td></td>
+                <td><input type="password" name="senha" id="senha" placeholder="senha" required="true"></td>
             </tr>
             <tr>
-                <td><input type="submit" id="login" name="login" value="Login" ></td>
+                <td><label for="confirmar">Confirmar senha</label></td>
+                <td><input type="password" name="confirmar" id="confirmar" placeholder="confirmar" required="true"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="login" name="login" value="Confirmar" >
+                </td>
             </tr>
         </table>
     </form>
@@ -32,6 +36,3 @@ DOCTYPE html>
 Terms
 Privacy
 Security
-Status
-Docs
-Contact GitHub
